@@ -1,0 +1,31 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: gray solid 1px;
+}
+
+.book {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 200px
+}
+
+.book-information {
+    flex: 2;
+    margin-bottom: 10px;
+}
+
+.book-description {
+    margin-top: 5px;
+}
+
+img {
+    border: lightgray solid 1px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 0;
+}
